@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- Template by Quackit.com -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Portfolio Website</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" 
+                data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand"> 
+                <span class="glyphicon glyphicon-fire"></span> 
+                	Emily Cao
+                </a>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="resume.html">Portfolio</a>
+                    </li>
+                </ul>
+                <!-- <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul> -->
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Recent Projects
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <!-- <a href="#">
+                    <img class="img-responsive" src="http://lorempixel.com/700/400/nature/1" alt="">
+                </a> -->
+                <video width="550" height="315" controls>
+                  
+                  <source src="./resources/GreenEco.mov" type="video/mp4"> 
+                </video>
+                <h3>
+                    <a href="https://github.com/caoemily/Carbon-Tracker" target="_blank">Carbon Tracker Android App</a>
+                </h3>
+                <p>Android application to monitor user’s CO2 emission from transport and utility usage. Generate CO2 footprint in the format of daily, monthly and yearly. Customize tips and notifications for user to reduce emission.</p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <video width="550" height="315" controls>                
+                  <source src="./resources/PandaSeeker.mov" type="video/mp4"> 
+                </video>
+                <h3>
+                    <a href="https://github.com/caoemily/PandaSeekerGame" target="_blank">Panda Seeker Android Game</a>
+                </h3>
+                <p>Android application of a game similar to “minesweeper” with the goal to find all the pandas in a bamboo forest with minimum inspections. User can choose to play with multiple forest sizes.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <a href="#" target="_blank">
+                    <img class="img-responsive" src="./resources/BudgetHelper.png" alt="">
+                </a>
+                <h3>
+                    <a href="https://caoemily.github.io/budgetHelper/" target="_blank">Budget Calculator Single-page Web App</a>
+                </h3>
+                <p>The application helps users manage monthly income and expense. Users could type in their income and expense of the current month, and get feedback.</p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="./resources/YelpCamp.png" alt="">
+                </a>
+                <h3>
+                    <a href="https://desolate-scrubland-70349.herokuapp.com/" target="_blank">YelpCamp Web App</a>
+                </h3>
+                <p>Full-stack web application for users to create/view/edit campgrounds and post reviews. The app is built with Express and MongoDB.</p>
+            </div>
+            
+        </div>
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="./resources/ExpediaKaggle.png" alt="">
+                </a>
+                <h3>
+                    <a href="kaggle.html" target="_blank">Machine Learning on Hotel Recommendation</a>
+                </h3>
+                <p>A machine learning project using training and testing data provided by Expedia (Kaggle Competition 2016). Different models are studied to find the one providing recommendations that best match users' choices.</p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="./resources/Viva.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="#">AR Exer Phone Game</a>
+                </h3>
+                <p>The game with AR element is built with Unity. The app is aming to encourage students to take daily fitness exercises such as walking, running, streching as their routine. Users collect rewards and level up by taking the exercises. </p>
+                <p>The app is currently under construction. Demo video coming...</p>
+            </div>
+        </div>
+
+        
+	<footer>
+		<div class="footer-blurb">
+		</div>
+        
+        <div class="notification">
+        	<div class="container">
+        		<p>@Thank you for visiting the page</p>
+        	</div>
+        </div>
+	</footer>
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

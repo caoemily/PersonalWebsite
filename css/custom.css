@@ -1,0 +1,35 @@
+body {
+    padding-top: 70px; 
+    background-color: #D3D3D3;
+}
+
+h1 {
+    font-size: 2em;    
+}
+h3 {
+    font-size: 1.4em;
+}
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.navbar-header {
+    margin: 10px;
+
+}
+.nav.navbar-nav {
+    margin: 10px;
+}
+.notification {
+    border-top: solid;
+    margin-bottom: 20px;
+    
+    margin-top:50px;
+}
+.education {
+    font-weight: bold;
+}
+.details {
+    margin-left: 20px;
+    list-style-type: none;
+}
