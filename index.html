@@ -80,11 +80,15 @@
         <div class="container">
           <div class="row mb-5 site-section border-bottom">
             <div class="col-lg-8">
-              <img src="./resources/images/KagglePoster.jpg" alt="Image" class="img-fluid img-kaggle">
+              <a href="https://desolate-scrubland-70349.herokuapp.com/">
+                  <img width="100%" class="img-responsive" src="./resources/images/YelpCamp.png" alt="">
+              </a>
             </div>
             <div class="col-lg-4 pl-lg-5 ml-auto mt-md-5 project-text">
-              <h2 class="text-black">Learning on Hotel Recommendation</h2>
-              <p class="mb-4">A machine learning project using training and testing data provided by Expedia (Kaggle Competition 2016). Different models such as decision tree, SVM and Stochastic gradient descent are applied. The models help to provide recommendations that best match users' choices.</p>
+              <h2>
+                <a href="https://desolate-scrubland-70349.herokuapp.com/" target="_blank" class="text-black">Blog Web App</a>
+              </h2>
+              <p class="mb-4">The single page web application allows users to log in through their google accounts, publish blogs, delete and edit their previous blogs. The simple application was built with React, Redux for the client side and Express, MongoDB for the server side. Building the app helps to learn various frameworks.</p>
               <!-- <div class="author-box">
                 <div class="d-flex mb-4">
                   <div class="mr-3">
@@ -327,22 +331,18 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-lg-7 mb-5">
-            <form action="http://formspree.io/emilyhappyhk@gmail.com" method="post" class="p-5 bg-white">              
-              <h2 class="h4 text-black mb-5">Contact Form</h2> 
-              <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">First Name</label>
-                  <input type="text" id="fname" class="form-control rounded-0">
+            <form action="https://formspree.io/emilyhappyhk@gmail.com" method="post" class="p-5 bg-white">              
+              <h2 class="h4 text-black mb-5">Contact Form</h2>
+              <div class="row form-group">                
+                <div class="col-md-12">
+                  <label class="text-black" for="name">Name</label> 
+                  <input type="text" id="fname" class="form-control rounded-0" required>
                 </div>
-                <div class="col-md-6">
-                  <label class="text-black" for="lname">Last Name</label>
-                  <input type="text" id="lname" class="form-control rounded-0">
-                </div>
-              </div>
+              </div> 
               <div class="row form-group">                
                 <div class="col-md-12">
                   <label class="text-black" for="email">Email</label> 
-                  <input type="email" id="email" class="form-control rounded-0">
+                  <input type="email" id="email" class="form-control rounded-0" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
                 </div>
               </div>
               <div class="row form-group">                
